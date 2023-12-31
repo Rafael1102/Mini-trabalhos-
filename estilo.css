@@ -1,0 +1,26 @@
+#inicial,{
+  width: 677px;
+  height: 93;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: rgba(23, 167, 0, 0.85);
+}
+body {
+  background-color: #026d22de;background: rgba(140, 250, 122, 0.85); /* Substitua #ff0000 pelo código da cor desejada */
+}
+#imgperfil {
+  margin-top: 10px; /* Move a foto para baixo */
+  margin-left: 80px; /* Move a foto para a direita */
+}
+
+#menu ul{
+  list-style: none; /* Remove os marcadores de lista */
+  padding: 0; /* Remove o preenchimento padrão da lista */
+  margin: 0; /* Remove a margem padrão da lista */
+}
+
+#menu li{
+  display: inline-block;
+  margin-right: 10px;
+  
+}
