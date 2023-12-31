@@ -8,9 +8,15 @@
 body {
   background-color: #026d22de;background: rgba(140, 250, 122, 0.85); /* Substitua #ff0000 pelo código da cor desejada */
 }
+ /* Adicione uma margem à esquerda da imagem para que ela fique no canto direito */
 #imgperfil {
-  margin-top: 10px; /* Move a foto para baixo */
-  margin-left: 80px; /* Move a foto para a direita */
+  margin-left: 10px;
+}
+/*Aumenta a altura da div "inicial" para que ela se ajuste a img*/
+#inicial{
+  height: 150px;
+  display: flex;
+  align-items: center;
 }
 
 #menu ul{
